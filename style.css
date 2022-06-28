@@ -27,6 +27,19 @@ p{
     min-height: 600px;
 position: relative;
 }
+
+@media only screen and (max-width: 600px) {
+    .section-title::after,  .section-title-right::before{
+        display: none;
+    }
+    .section-story-title,.section-story-title-right, .section-title, .section-title-right{
+        margin-bottom: 0px !important;
+        text-align: center !important;
+    }
+
+}
+
+
 .hero::after{
  
         content: '';
