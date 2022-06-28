@@ -1,4 +1,25 @@
-*   {margin: 0;padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oswald:wght@300;400;600;700&display=swap');
+*   {margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.container  {
+    background-color: white;
+    padding: 0;
+}
+section{
+    padding: 50px;
+}
+.home-header-hero{
+    background-color: white;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+    color: #989898;
+}
 .hero{
     background: url(./img/hero-bg.jpg) ;
     background-size: contain ;
@@ -46,8 +67,17 @@ img{width: 100%;}
 .our-spec img{
     width: 70px;
 }
+.navbar-brand img{
+    width: 200px;
+}
 
+.card {
+    border: none;
+}
 
+.card:hover {
+    box-shadow: inset -3px -4px 17px 3px #0062cc33;
+}
 .section-title-right{
     color: #111110;
     font-weight: 700;
@@ -78,11 +108,49 @@ img.bg-img-box {
 }
 footer{
     background-color: #203F76;
+    
 }
+footer ul {
+    list-style: none;
+    line-height: 2rem;
+}
+footer ul li a {
+    color:white;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
 .contact-us input{
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 3px solid #ddd;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 5px;
+}
 
+input[type=text]:focus {
+    border: none !important
+  }
+
+a {font-weight: 700;}
+.copyright{
+    background-color: #212127;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    padding: 10px;
+}
+.social img{
+    width: 20px;
+    margin: 5px;
+}
+.text-icon-list {
+    display: flex;
+    align-items: center;    
+    line-height: 2rem;
+}
+.text-icon-list img {width: 20px;margin-right: 10px;}
+.text-icon-list p{
+    padding: 0;
+    margin: 0;
 }
